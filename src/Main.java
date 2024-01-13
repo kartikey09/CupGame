@@ -49,7 +49,7 @@ public class Main {
 
 			if (cup0 == desiredAns || cup1 == desiredAns || cup2 == desiredAns) {
 				for(int[] a : p.steps) {
-					System.out.println(a[0] + " " + a[1] + " " + a[2]);
+					System.out.println("cup1 : " + a[0] + " cup2 : " + a[1] + " cup3 : " + a[2]);
 				}
 				return time;
 			}
